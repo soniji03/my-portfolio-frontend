@@ -6,6 +6,7 @@ import '../Login'
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { API_HOST_URL } from '../../../../config';
 
 const SignUpPage = () => {
   const [isChecked, setIsChecked] = useState(false);
@@ -16,7 +17,7 @@ const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
-  const apiUrl = `http://localhost:3000/api/users/register`;
+  const apiUrl = `${API_HOST_URL}/api/users/register`;
   console.log(apiUrl, "jjjhhjh")
   const navigate = useNavigate();
 

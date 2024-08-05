@@ -1,0 +1,1 @@
+export const API_HOST_URL = 'https://my-portfolio-backend-3p4a.onrender.com'

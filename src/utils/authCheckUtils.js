@@ -1,10 +1,12 @@
+import { API_HOST_URL } from "../../config";
+
 export async function authCheck(){
     try {
         let userData = localStorage?.getItem('userData');
         if(userData){
           userData = JSON.parse(userData);
           if(userData?.token){
-           const res = await fetch('http://localhost:3000/api/users/check-login-status',
+           const res = await fetch(`${API_HOST_URL}/api/users/check-login-status`,
             {
                 headers:{
                     'Content-Type': 'application/json',
