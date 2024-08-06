@@ -132,26 +132,29 @@ function Home() {
   </div>
   <div className="relative">
       <div className='text-center bottom-0'>
-        <button
-          onClick={() => setShowPopup(true)}
+        <button onClick={() => setShowPopup(true)}
           className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#79ec9e] text-white transition duration-300'
         > DOWNLOAD </button>
       </div>
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="bg-white p-6 rounded-lg shadow-xl">
-          <div className="flex flex-col space-y-4 ">
-  <div className='flex gap-28 lg:w-[25rem]'>
-    <p className="mb-2 font-semibold">Get Frontend Source</p>
-   <Link to='https://github.com/soniji03/auth-frontend'> <button className="px-4 py-2 bg-[#657cef] text-white rounded hover:bg-[#79ec9e] transition duration-300"
-    > Download</button></Link>
-  </div>
-  <div className='flex gap-28 lg:w-[26rem]'>
-    <p className="mb-2 font-semibold">Get Backend Source</p>
-   <Link to='https://github.com/soniji03/auth-backend'><button className="px-4 py-2 bg-[#657cef] text-white rounded hover:bg-[#79ec9e] transition duration-300"
-    > Download</button></Link> 
-  </div>
-</div>
+            <div className="flex flex-col space-y-4 ">
+              <div className='flex gap-28 lg:w-[25rem]'>
+                <p className="mb-2 font-semibold">Get Frontend Source</p>
+                <Link to='https://github.com/soniji03/auth-frontend'>
+                  <button className="px-4 py-2 bg-[#657cef] text-white rounded hover:bg-[#79ec9e] transition duration-300"
+                    onClick={handleDownload} > Download </button>
+                </Link>
+              </div>
+              <div className='flex gap-28 lg:w-[26rem]'>
+                <p className="mb-2 font-semibold">Get Backend Source</p>
+                <Link to='https://github.com/soniji03/auth-backend'>
+                  <button className="px-4 py-2 bg-[#657cef] text-white rounded hover:bg-[#79ec9e] transition duration-300"
+                    onClick={handleDownload} > Download</button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       )}
