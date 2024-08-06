@@ -43,7 +43,7 @@ function Home() {
     </div>
   </div>
   <div className='text-center bottom-0'>
-    <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#e7e561] '>DOWNLOAD</button>
+   <Link to='https://github.com/soniji03/TODO-LIST'> <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#e7e561] '>DOWNLOAD</button></Link>
   </div>
 </div>
 
