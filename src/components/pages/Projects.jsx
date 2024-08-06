@@ -16,6 +16,8 @@ function Projects() {
     }
   };
 
+
+
   return (
 
     <div style={font} className='bg-[#D0D8FF] -my-6 min-h-screen px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-20'>
@@ -94,14 +96,12 @@ function Projects() {
             <LuUserCheck className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
           </div>
           <div className='text-center'>
-            <Link to=' '>
+            <Link to='https://react-authetn-tication.netlify.app'>
             <h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>User-Authentication</h2></Link>
             <p className='text-base sm:text-lg'>User authentication verifies identities through credentials like passwords or biometrics, ensuring secure access and protecting sensitive data from unauthorized users....</p>
           </div>
         </div>
       </div>
-
-     
     </div>
 
   
