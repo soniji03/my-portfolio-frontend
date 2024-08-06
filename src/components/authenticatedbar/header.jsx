@@ -106,8 +106,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-
-{/* <li onClick={handleLogout} className='mt-1 text-2xl px-2 py-1 rounded-full duration-300 ease-in-out hover:bg-slate-400 hover:scale-105'>
-//           <BiLogOutCircle />
-//         </li> */}

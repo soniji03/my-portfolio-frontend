@@ -34,7 +34,7 @@ function Projects() {
             <FcTodoList className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
           </div>
           <div className='text-center'>
-            <Link to=' '><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Todo-List</h2></Link>
+            <Link to='https://dailytask-todo-list.netlify.app'><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Todo-List</h2></Link>
             <p className='text-base sm:text-lg'>In this website, what we do daily, we can write everything in the form of a list.</p>
           </div>
         </div>
