@@ -20,7 +20,9 @@ function Home() {
   };
 
   const [showPopup, setShowPopup] = useState(false);
-
+  const handleDownload = () => {
+    setShowPopup(false);
+  };
  
   return (
     <AuthenticatedLayout>
