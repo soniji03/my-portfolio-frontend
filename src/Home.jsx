@@ -60,7 +60,7 @@ function Home() {
     </div>
   </div>
   <div className='text-center bottom-0'>
-    <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#fb8d8d]'>DOWNLOAD</button>
+   <Link to=''> <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#fb8d8d]'>DOWNLOAD</button></Link>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ function Home() {
     </div>
   </div>
   <div className='text-center bottom-0'>
-    <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#74e7bd]'>DOWNLOAD</button>
+   <Link to=''> <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#74e7bd]'>DOWNLOAD</button></Link>
   </div>
 </div>
 
@@ -94,7 +94,7 @@ function Home() {
     </div>
   </div>
   <div className='text-center bottom-0'>
-    <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#5ebdf5]'>DOWNLOAD</button>
+   <Link to='https://github.com/soniji03/CALCULATOR'> <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#5ebdf5]'>DOWNLOAD</button></Link>
   </div>
 </div>
 
@@ -111,7 +111,7 @@ function Home() {
     </div>
   </div>
   <div className='text-center bottom-0'>
-    <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#f98d77]'>DOWNLOAD</button>
+   <Link to=''><button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#f98d77]'>DOWNLOAD</button></Link>
   </div>
 </div>
 
@@ -128,7 +128,7 @@ function Home() {
     </div>
   </div>
   <div className='text-center bottom-0'>
-    <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#79ec9e]'>DOWNLOAD</button>
+   <Link to=''><button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#79ec9e]'>DOWNLOAD</button></Link>
   </div>
 </div>
 

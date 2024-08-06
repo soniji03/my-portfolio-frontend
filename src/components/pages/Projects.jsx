@@ -70,7 +70,7 @@ function Projects() {
             <FcCalculator className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
           </div>
           <div className='text-center'>
-            <Link to=' '><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Calculator</h2></Link>
+            <Link to='https://claculator-js.netlify.app'><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Calculator</h2></Link>
             <p className='text-base sm:text-lg'>A React calculator is a web app that uses components for arithmetic operations, offering an interactive, user-friendly interface for calculations....</p>
           </div>
         </div>
