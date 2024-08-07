@@ -84,7 +84,7 @@ function Projects() {
             <MdQueueMusic className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
           </div>
           <div className='text-center'>
-            <Link to=' '><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Music System</h2></Link>
+            <Link to='https://reactmusicsystem.netlify.app'><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Music System</h2></Link>
             <p className='text-base sm:text-lg'>A React music system is a web app for playing, pausing, and managing music, with interactive controls and playlist management....</p>
           </div>
         </div>
