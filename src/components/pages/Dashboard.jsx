@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import '../../App.css'
 
 function Dashboard() {
 
@@ -18,14 +19,17 @@ function Dashboard() {
   }
 
   return (
+
     <div id="dashboard" style={font} className="bg-[#D0D8FF] mt-16 lg:py-0">
       <div className="flex flex-col lg:flex-row justify-between mx-auto max-w-7xl w-full py-12 lg:py-24 px-4 lg:px-28">
         <div className="mb-8 lg:mb-0 lg:p-16">
           <div className="text-white max-w-md">
-            <h6 className="mb-4 font-bold text-[#ef6b74]">GET EVERY SINGLE SOLUTIONS.</h6>
-            <h1 className="text-3xl lg:text-5xl font-bold mb-4 text-blue-950">
-              I'm <br /> Web Developer <br /> Om Soni
-            </h1>
+          <h6 className="mb-4 font-bold bounce text-[#ef6b74]">GET EVERY SINGLE SOLUTIONS.</h6>
+      <h1 className="text-3xl lg:text-5xl font-bold mb-4 text-blue-950 fade">
+        <span className="block">I'm</span>
+        <span className="block">Web Developer</span>
+        <span className="block">Om Soni</span>
+      </h1>
             <p className="mb-6 text-blue-950 text-sm lg:text-base">
               Transforming ideas into interactive, user-friendly web experiences.
               With a passion for clean code and innovative design,

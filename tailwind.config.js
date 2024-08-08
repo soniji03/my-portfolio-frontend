@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        '0.15em': '0.15em',
+      },
     },
   },
   variants: {},
