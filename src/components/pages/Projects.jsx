@@ -60,8 +60,8 @@ function Projects() {
             <FaAmericanSignLanguageInterpreting className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
           </div>
           <div className='text-center'>
-            <Link to=' '><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Sign Recognition</h2></Link>
-            <p className='text-base sm:text-lg'>Sign language recognition with Python uses machine learning and computer vision to interpret gestures, facilitating communication between deaf individuals and others....</p>
+            <Link to='https://w-eatherapp.netlify.app/'><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Weather App</h2></Link>
+            <p className='text-base sm:text-lg'>A weather app provides real-time information about current weather conditions, forecasts, and other meteorological data to help users plan their daily activities effectively...</p>
           </div>
         </div>
       </div>

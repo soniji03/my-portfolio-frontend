@@ -76,13 +76,13 @@ function Home() {
         <FaAmericanSignLanguageInterpreting className='h-10 w-10 md:h-12 md:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
       </div>
       <div className='text-center'>
-        <h2 className='text-xl md:text-2xl font-bold mb-4 md:mb-8'>Sign Recognition</h2>
-        <p className='text-base md:text-lg'>Sign language recognition with Python uses machine learning and computer vision to interpret gestures, facilitating communication between deaf individuals and others....</p>
+        <h2 className='text-xl md:text-2xl font-bold mb-4 md:mb-8'>Wheather App</h2>
+        <p className='text-base md:text-lg'>A weather app provides real-time information about current weather conditions, forecasts, and other meteorological data to help users plan their daily activities effectively...</p>
       </div>
     </div>
   </div>
   <div className='text-center bottom-0'>
-   <Link to=''> <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#74e7bd]'>DOWNLOAD</button></Link>
+   <Link to='https://github.com/soniji03/weather'> <button className='p-3 w-full md:w-[24.5rem] rounded-lg font-bold bg-[#657cef] hover:shadow-2xl hover:bg-[#74e7bd]'>DOWNLOAD</button></Link>
   </div>
 </div>
 
