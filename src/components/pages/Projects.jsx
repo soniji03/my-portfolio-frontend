@@ -4,7 +4,7 @@ import { SiCanva } from "react-icons/si";
 import { MdQueueMusic } from "react-icons/md";
 import { FcCalculator } from "react-icons/fc";
 import { LuUserCheck } from "react-icons/lu";
-import { FaAmericanSignLanguageInterpreting } from "react-icons/fa";
+import { TiWeatherPartlySunny } from "react-icons/ti";
 import { Link } from 'react-router-dom'
 
 function Projects() {
@@ -56,8 +56,8 @@ function Projects() {
 
       <div className="rounded-lg h-full w-full flex justify-center bg-white transition duration-300 ease-in-out hover:shadow-2xl hover:bg-white group p-6">
         <div className='flex flex-col items-center h-full'>
-          <div className='h-24 w-24 sm:h-32 sm:w-32 rounded-full bg-gray-200 flex items-center justify-center mb-6 sm:mb-10 transition duration-300 ease-in-out group-hover:bg-[#74e7bd]'>
-            <FaAmericanSignLanguageInterpreting className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
+          <div className='h-24 w-24 sm:h-32 sm:w-32 rounded-full bg-gray-200 flex items-center justify-center mb-6 sm:mb-10 transition duration-300 ease-in-out group-hover:bg-[#84aef5]'>
+            <TiWeatherPartlySunny className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
           </div>
           <div className='text-center'>
             <Link to='https://w-eatherapp.netlify.app/'><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Weather App</h2></Link>

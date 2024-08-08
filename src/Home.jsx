@@ -7,6 +7,8 @@ import { MdQueueMusic } from "react-icons/md";
 import { FcCalculator } from "react-icons/fc";
 import { LuUserCheck } from "react-icons/lu";
 import { FaAmericanSignLanguageInterpreting } from "react-icons/fa";
+import { TiWeatherPartlySunny } from "react-icons/ti";
+
 import { Link } from 'react-router-dom'
 
 
@@ -72,8 +74,8 @@ function Home() {
 <div className='flex group flex-col gap-4 w-full md:w-[24.5rem] md:h-[30rem]'>
   <div className="rounded-lg h-full w-full flex justify-center bg-white transition duration-300 ease-in-out hover:shadow-2xl hover:bg-white group p-6">
     <div className='flex flex-col items-center h-full'>
-      <div className='h-24 w-24 md:h-32 md:w-32 rounded-full bg-gray-200 flex items-center justify-center mb-6 md:mb-10 transition duration-300 ease-in-out group-hover:bg-[#74e7bd]'>
-        <FaAmericanSignLanguageInterpreting className='h-10 w-10 md:h-12 md:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
+      <div className='h-24 w-24 md:h-32 md:w-32 rounded-full bg-gray-200 flex items-center justify-center mb-6 md:mb-10 transition duration-300 ease-in-out group-hover:bg-[#84aef5]'>
+        <TiWeatherPartlySunny className='h-10 w-10 md:h-12 md:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
       </div>
       <div className='text-center'>
         <h2 className='text-xl md:text-2xl font-bold mb-4 md:mb-8'>Wheather App</h2>
