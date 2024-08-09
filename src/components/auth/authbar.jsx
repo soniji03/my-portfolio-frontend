@@ -21,9 +21,9 @@ export const SideMenu = ({ isOpen, setIsOpen }) => {
             </button>
             <nav className="mt-16 p-4">
                 <ul className="space-y-4">
-                    <Link to='/'><li>Dashboard</li></Link>
-                    <Link to='/signin'><li>Sign In</li></Link>
-                    <Link to='/login'><li>Log IN</li></Link>
+                    <Link to='/'><li>Home</li></Link>
+                    <Link to='/signin'><li>Sign in</li></Link>
+                    <Link to='/login'><li>Log iN</li></Link>
                 </ul>
             </nav>
         </div>
