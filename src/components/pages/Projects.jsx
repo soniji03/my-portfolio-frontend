@@ -6,6 +6,7 @@ import { FcCalculator } from "react-icons/fc";
 import { LuUserCheck } from "react-icons/lu";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { Link } from 'react-router-dom'
+// import LOGO from '../../../public/'
 
 function Projects() {
 
@@ -44,12 +45,13 @@ function Projects() {
 
  <div className="rounded-lg h-full w-full flex justify-center bg-white transition duration-300 ease-in-out hover:shadow-2xl hover:bg-white group p-6">
         <div className='flex flex-col items-center h-full'>
-          <div className='h-24 w-24 sm:h-32 sm:w-32 rounded-full bg-gray-200 flex items-center justify-center mb-6 sm:mb-10 transition duration-300 ease-in-out group-hover:bg-[#fb8d8d]'>
-            <SiCanva className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' />
+          <div className='h-24 w-24 sm:h-32 sm:w-32 rounded-full bg-gray-200 flex items-center justify-center mb-6 sm:mb-10 transition duration-300 ease-in-out group-hover:bg-[#9EC6D1]'>
+            {/* <SiCanva className='h-10 w-10 sm:h-12 sm:w-12 transition-transform duration-300 ease-in-out transform group-hover:rotate-12' /> */}
+            <img src='FAVICON.png' className=' transition-transform duration-300 ease-in-out transform group-hover:rotate-12'/>
           </div>
           <div className='text-center'>
-            <Link to=' '><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>Canva Clone</h2></Link>
-            <p className='text-base sm:text-lg'>A Canva clone website mimics Canva's features, enabling users to design graphics, presentations, and posts with an intuitive interface..</p>
+            <Link to='https://whiztalk.netlify.app/'><h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>WhizTalk</h2></Link>
+            <p className='text-base sm:text-lg'>WhizTalk facilitates instant communication, enabling users to engage in meaningful conversations, share ideas, and strengthen their connections effortlessly across any distance...</p>
           </div>
         </div>
       </div>

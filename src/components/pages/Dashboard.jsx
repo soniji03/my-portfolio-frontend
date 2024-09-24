@@ -20,7 +20,7 @@ function Dashboard() {
 
   return (
 
-    <div id="dashboard" style={font} className="bg-[#D0D8FF] mt-16 lg:py-0">
+    <div id="dashboard" style={font} className="bg-[#D0D8FF] mt-16 lg:mt-0">
       <div className="flex flex-col lg:flex-row justify-between mx-auto max-w-7xl w-full py-12 lg:py-24 px-4 lg:px-28">
         <div className="mb-8 lg:mb-0 lg:p-16">
           <div className="text-white max-w-md">
@@ -44,8 +44,8 @@ function Dashboard() {
           </div>
         </div>
         <div className="flex justify-center">
-          <img src="/demo.png" alt="Om Soni" className="shadow-2xl h-auto w-full max-w-[20rem] lg:max-w-[29rem] object-cover" />
-        </div>
+  <img src="/PP.png" alt="Om Soni" className="h-auto w-full  object-cover " />
+</div>
       </div>
     </div>
   );

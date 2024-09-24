@@ -16,7 +16,7 @@ function About() {
         <span className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-32 sm:w-60 h-1 bg-gradient-to-r from-white via-blue-900 to-white"></span>
       </h1>
       <div className='flex justify-center mb-6 sm:mb-10'>
-        <img src="/demo.png" alt="Om Soni" className="rounded-full shadow-2xl h-32 w-32 sm:h-48 sm:w-48 lg:h-60 lg:w-60 object-cover" />
+        <img src="/PA.png" alt="Om Soni" className="rounded-full  shadow-2xl h-32 w-32 sm:h-48 sm:w-48 lg:h-60 lg:w-60 object-cover" />
       </div>
       <div className='space-y-4 sm:space-y-6'>
         <h2 className='text-center text-lg sm:text-xl mb-4'>Hi, I'm Om, nice to meet you!</h2>
